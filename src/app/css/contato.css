@@ -1,0 +1,237 @@
+/* Header */
+/* Reset básico */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos básicos */
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+    /* header */
+.header-content {
+    position: relative;
+    width: 200%;
+    height: 100%;
+    max-width: 2000px; /* Limite máximo para manter a imagem dentro do container */
+  }
+  
+  .header img {
+    width: 200%;
+    height: auto; /* Garante que a imagem mantenha suas proporções e não ultrapasse */
+    object-fit: cover; /* Garante que a imagem cubra o container sem distorções */
+    max-height: 100%; /* A imagem não ultrapassará o header */
+  }
+  
+  /* Navbar Geral */
+  .navbar {
+    background-color: #28a74677; 
+    padding: 10px 0;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    border-bottom: solid #28a745 1px;
+  }
+  
+  .max-width{
+    max-width: 1300px;
+    padding: 0 10px;
+    margin: auto;
+  }
+  
+  .navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar .menu li{
+    list-style: none;
+    display: inline-flex;
+  }
+  .navbar .menu li a{
+    text-decoration: none; 
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 25px;
+  
+  }
+  
+  .menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+  }
+  
+ 
+  
+  
+  /* footer */
+.footer {
+  background-color: #28a746; /* Cor verde */
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  position: relative;
+  width: 100%;
+  }
+  
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem; /* Aumenta o tamanho do ícone */
+  }
+  
+  .social-icons a:hover {
+    color: #d4d4d4; /* Cor de hover */
+  }
+  
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.form-container {
+    background: rgba(0, 0, 0, 0.5); /* Fundo transparente com preto */
+    border: 2px solid #00ff2248; /* Borda em neon verde */
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    margin: 100px auto; /* Centraliza e adiciona espaço acima e abaixo do formulário */
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff; /* Letras brancas */
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #fff; /* Letras brancas */
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #00ff0d62; /* Bordas em neon verde */
+    background: transparent; /* Fundo transparente */
+    color: #fff; /* Texto branco */
+    border-radius: 4px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    background-color: #00ff007e; /* Botão verde neon */
+    color: #f1ebeb;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Responsividade */
+
+@media (max-width: 947px) {
+  /* Ajuste para o botão de menu no mobile */
+  .menu-btn {
+    display: block; /* Agora o botão aparece no mobile */
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  /* Ajuste para o header em telas menores */
+  .header {
+    padding-bottom: 20px; /* Reduz o espaço em telas menores */
+    padding-bottom: 70px; /* Espaço original abaixo da imagem */
+    margin-bottom: 50px;  /* Adiciona 50px de espaço abaixo do header */
+  }
+  
+  /* Ajuste para o conteúdo do header */
+  .header-content {
+    max-width: 100%; /* Garante que o conteúdo ocupe toda a largura */
+    padding: 0 20px; /* Adiciona um padding lateral para dar espaço nas laterais */
+  }
+  
+  /* Ajuste para a imagem do header */
+  .header img {
+    width: 100%; /* Imagem ocupa toda a largura em dispositivos móveis */
+    height: auto; /* Mantém a proporção correta da imagem */
+  }
+  
+  
+  .navbar .menu {
+    background-color: #28a7468f; /* Cor de fundo do menu */
+    position: fixed;
+    height: 100vh; /* Altura total da tela */
+    width: 50%; /* Ocupa 50% da largura da tela */
+    right: -100%; /* Inicialmente fora da tela */
+    top: 0;
+    text-align: left;
+    padding-top: 50px;
+    transition: right 0.3s ease; /* Transição suave */
+  }
+  
+  /* Quando o menu estiver ativo */
+  .navbar .menu.active {
+    right: 0; /* O menu entra na tela */
+  }
+  
+  .navbar .menu li {
+    display: block;
+    margin: 20px 0;
+  }
+  
+  .navbar .menu li a {
+    display: block;
+    font-size: 25px;
+    color: #fff;
+  }
+  
+  .max-width {
+    max-width: 930px;
+  }
+  
+  .form-container {
+    padding: 15px; /* Reduz o espaçamento interno em telas menores */
+  }
+
+  input,
+  textarea,
+  button {
+    font-size: 14px; /* Ajusta o tamanho da fonte para telas menores */
+  }
+
+  h2 {
+    font-size: 20px; /* Ajusta o tamanho do título para telas menores */
+  }
+   
+  }
