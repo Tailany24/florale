@@ -42,7 +42,6 @@ Siga os passos abaixo para configurar o projeto localmente:
    Depois de iniciar o servidor, você pode acessar a aplicação no navegador em http://localhost:3000.
 
 ## Licença
-# Florale
 
 Este é o projeto Florale. Você pode encontrar a [licença aqui](https://github.com/Tailany24/florale/blob/main/LICENSE).
 
