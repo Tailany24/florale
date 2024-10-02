@@ -43,7 +43,10 @@ Siga os passos abaixo para configurar o projeto localmente:
 
 ## Licença
 
-Este é o projeto Florale. Você pode encontrar a [licença aqui](https://github.com/Tailany24/florale/blob/main/LICENSE).
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](https://github.com/Tailany24/florale/blob/main/LICENSE) para detalhes. 
+
+Se você usar, modificar ou distribuir este projeto, dê os devidos créditos ao autor original.
+
 
 
 
