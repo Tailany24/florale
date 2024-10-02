@@ -79,7 +79,10 @@ body, h1, h2, p {
     display: none;
   }
   
- 
+ textarea {
+  resize: none; /* Impede o redimensionamento da caixa de texto */
+}
+
   
   
   /* footer */
