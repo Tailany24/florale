@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍀 *Florale API* 🍀
 
-## Getting Started
+Florale é uma aplicação web desenvolvida em **Next.js** que permite aos usuários explorar e interagir com um catálogo de informações relacionadas à natureza. Este repositório contém a implementação da API, que fornece funcionalidades essenciais para a aplicação.
+##
 
-First, run the development server:
+[![Florale](https://github.com/user-attachments/assets/2f827321-d00e-4bc8-bf29-f94b315a378a)](https://florale-ten.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Funcionalidades
 
-## Learn More
+- **Home**: Detalhe sobre os serviços e objetivos do site.
+- **Sobre**: Descrição sobre o projeto.
+- **Contatos**: Permite que os usuários enviem mensagens através de um formulário de contato. (Back End será desenvolvido em breve!)
 
-To learn more about Next.js, take a look at the following resources:
+## Tecnologias Utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Instalação
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Siga os passos abaixo para configurar o projeto localmente:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/Tailany24/florale.git
+   cd florale
+
+2. Instale as dependências:
+   ```bash
+   npm install
+
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+4. Acessar a aplicação:
+   Depois de iniciar o servidor, você pode acessar a aplicação no navegador em http://localhost:3000.
+
+## Licença
+# Florale
+
+Este é o projeto Florale. Você pode encontrar a [licença aqui](https://github.com/Tailany24/florale/blob/main/LICENSE).
+
+
+
