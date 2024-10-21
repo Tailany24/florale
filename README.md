@@ -17,7 +17,6 @@ Florale é uma aplicação web desenvolvida em **Next.js** que permite aos usuá
 ## Tecnologias Utilizadas
 
 - [Next.js](https://nextjs.org/)
-- [React](https://reactjs.org/)
 - [Node.js](https://nodejs.org/)
 - [Express.js](https://expressjs.com/)
 
